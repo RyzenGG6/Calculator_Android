@@ -54,6 +54,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         historyButton = findViewById(R.id.historyButton);
 
 
+        but_AC.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                // Display a popup (Toast) with the developer's name
+                Toast.makeText(MainActivity.this, "Developed by Sidharth A V", Toast.LENGTH_SHORT).show();
+                return true; // Return true to indicate the long-click was handled
+            }
+        });
 
         historyButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -240,6 +248,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             while (!s.isEmpty()) {
                 s.pop();
             }
+
         } else if (v.getId() == R.id.but_plus) {
 
             if (operator != '\0') {
