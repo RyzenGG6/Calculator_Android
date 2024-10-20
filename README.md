@@ -29,7 +29,7 @@ https://github.com/user-attachments/assets/33707140-01e5-421e-89bc-b4053ab074e6
 ## 💡 Usage
 - Simple tap for standard calculations
 - History button to access calculation history
-- Long press AC for developer credits
+- Long press AC for developer name
 
 ## 📬 Contact
 Sidharth A V, S7 CSE B, AM.EN.U4CSE21153
